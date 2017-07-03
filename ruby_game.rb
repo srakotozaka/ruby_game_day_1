@@ -13,6 +13,6 @@ nb_rows = 3
   end
 end
 
-player = {x: 3,y: 2}
-draw(5, 3, player)
+
+draw 5, 3, x: 3,y: 2
 
