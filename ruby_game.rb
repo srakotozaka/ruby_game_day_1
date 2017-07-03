@@ -1,10 +1,9 @@
 nb_cols = 5
 nb_rows = 3
-player_x = 3
-player_y = 2
+player = {"x"=>3,"y"=>2}
 for i in 1..nb_rows
   for j in 1..nb_cols
-    if player_x==i && player_y==j
+    if player["x"]==i and player["y"]==j
       print "P"
     else
       print "."
